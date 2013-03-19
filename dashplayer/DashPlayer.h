@@ -198,6 +198,7 @@ private:
     FlushStatus mFlushingVideo;
     bool mResetInProgress;
     bool mResetPostponed;
+    bool mSetVideoSize;
 
     int64_t mSkipRenderingAudioUntilMediaTimeUs;
     int64_t mSkipRenderingVideoUntilMediaTimeUs;
