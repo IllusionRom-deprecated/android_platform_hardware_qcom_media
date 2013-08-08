@@ -47,6 +47,7 @@ ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
 ========================================================================== */
 #include "hevc_utils.h"
+#include "vidc_debug.h"
 #include <string.h>
 #include <stdlib.h>
 #include <limits.h>
@@ -54,9 +55,6 @@ ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 #ifdef _ANDROID_
 #include <cutils/properties.h>
 #endif
-
-#define DEBUG_PRINT_LOW ALOGV
-#define DEBUG_PRINT_ERROR ALOGE
 
 
 /* =======================================================================
