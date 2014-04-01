@@ -18,7 +18,7 @@ ifneq ($(filter msm8610 msm8226 msm8974 msm8960 msm8660 apq8084 mpq8092,$(TARGET
 include $(QCOM_MEDIA_ROOT)/libc2dcolorconvert/Android.mk
 endif
 
-ifneq ($(filter msm8974 msm8960 msm8226,$(TARGET_BOARD_PLATFORM)),)
+ifneq ($(filter msm8974 msm8960 msm8226 apq8084,$(TARGET_BOARD_PLATFORM)),)
 include $(QCOM_MEDIA_ROOT)/QCMediaPlayer/Android.mk
 include $(QCOM_MEDIA_ROOT)/dashplayer/Android.mk
 endif
